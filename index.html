@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECO-360 Phyxital Solutions | Infraestructura y Ciberdefensa Local</title>
+    <style>
+        :root {
+            --bg-color: #0A0D14;
+            --card-bg: #121722;
+            --border-color: #1E2638;
+            --text-color: #E0E6ED;
+            --accent-gold: #D4AF37;
+            --accent-emerald: #00E6A5;
+            --accent-alert: #FF0055;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 0 20px;
+        }
+
+        header {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--accent-gold);
+            letter-spacing: 2px;
+        }
+
+        .tag {
+            background-color: rgba(0, 230, 165, 0.1);
+            color: var(--accent-emerald);
+            border: 1px solid var(--accent-emerald);
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .hero {
+            max-width: 1100px;
+            margin: 60px auto;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            color: var(--accent-gold);
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #9AA5B5;
+            max-width: 800px;
+            margin: 0 auto 30px auto;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            max-width: 1100px;
+            margin: 40px auto;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 30px;
+            border-radius: 8px;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent-gold);
+        }
+
+        .card-icon {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: var(--accent-gold);
+            margin-bottom: 12px;
+            font-size: 1.3rem;
+        }
+
+        .card p {
+            color: #A0AEC0;
+            font-size: 0.95rem;
+        }
+
+        .badge-list {
+            margin-top: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .badge {
+            background-color: #1A202C;
+            color: #CBD5E0;
+            font-size: 0.75rem;
+            padding: 3px 8px;
+            border-radius: 3px;
+            border: 1px solid #2D3748;
+        }
+
+        footer {
+            max-width: 1100px;
+            margin: 80px auto 40px auto;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            color: #718096;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">ECO-360 // PHYXITAL</div>
+        <div class="tag">OPERATIVO .LAN | ISO 27001</div>
+    </header>
+
+    <section class="hero">
+        <h1>Infraestructura Soberana y Ciberdefensa Territorial</h1>
+        <p>Transformamos la conectividad pública, el auxilio de emergencias y la telemetría perimetral en soluciones locales sin cuotas en dólares ni dependencia de nubes extranjeras.</p>
+    </section>
+
+    <section class="grid">
+        <div class="card">
+            <div class="card-icon">🌐</div>
+            <h3>Micro-ISP Vecinal</h3>
+            <p>Conectividad comunitaria de alta eficiencia. Gestión inteligente de caudal mediante FQ-CoDel y aislamiento de privacidad entre viviendas con nftables.</p>
+            <div class="badge-list">
+                <span class="badge">Equidad Digital</span>
+                <span class="badge">FQ-CoDel</span>
+                <span class="badge">Client Isolation</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">📻</div>
+            <h3>Red en Malla Off-Grid LoRa</h3>
+            <p>Comunicación crítica de auxilio en radiofrecuencia 915 MHz. Respuesta en menos de 5 segundos para parajes aislados y emergencias climáticas sin suministro eléctrico ni cobertura celular.</p>
+            <div class="badge-list">
+                <span class="badge">915 MHz Sub-GHz</span>
+                <span class="badge">Resiliencia 100%</span>
+                <span class="badge">Botón SOS</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">🛡️</div>
+            <h3>Cuidado Respetuoso y Radar</h3>
+            <p>Monitoreo perimetral y somático no invasivo mediante radar mmWave 24 GHz. Detección de caídas e inmovilidad sin cámaras ni violación del pudor.</p>
+            <div class="badge-list">
+                <span class="badge">mmWave 24 GHz</span>
+                <span class="badge">Keep-Alive</span>
+                <span class="badge">Descongestión 911</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">🔒</div>
+            <h3>Búnker Debian y Anti-SaaS</h3>
+            <p>Procesamiento local en Mini PC con cifrado FUSE. Soberanía absoluta de datos con $0 abonos mensuales y cumplimiento bajo normativa ISO/IEC 27001.</p>
+            <div class="badge-list">
+                <span class="badge">Debian CLI</span>
+                <span class="badge">Sin Cuotas</span>
+                <span class="badge">ISO 27001</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 ECO-360 Phyxital Solutions — San Rafael, Mendoza, Argentina.</p>
+    </footer>
+
+</body>
+</html>
